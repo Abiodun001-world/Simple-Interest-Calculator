@@ -1,5 +1,11 @@
+* {
+   box-sizing: border-box; 
+   padding: 0px;
+   margin: 0px;
+}
 body {
     background-color:black;
+    background-image: no-repeat;
 	color:white;
 	font:arial;
 }
@@ -13,13 +19,37 @@ h1 {
     background-color:white;
     color:black;
     width:400px;
-    padding: 25px;
+    padding: 15px;
     border-radius:25px;
     margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
 }
 
 footer {
     padding: 0px 10px;
-	padding-top:10px;
+	padding-top: 5px;
 }
+/* for mobile, desktop and tablets*/
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width:860px) {
+    body {
+        background-color:yellow;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color:orange;
+        display: grid;
+        place-items: center;
+    }
+}
+
+  
 
