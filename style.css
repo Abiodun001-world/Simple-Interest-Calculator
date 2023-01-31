@@ -22,7 +22,7 @@ h1 {
     padding: 15px;
     border-radius:25px;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 140px;
     cursor: pointer;
 }
 
@@ -30,26 +30,27 @@ footer {
     padding: 0px 10px;
 	padding-top: 5px;
 }
-/* for mobile, desktop and tablets*/
-@media screen and (min-width: 1024px) and (max-width: 1300px) {
-    body {
-        background-color: blue;
-    }
-}
 
+       
 @media screen and (max-width:860px) {
     body {
         background-color:yellow;
     }
 }
 
+
 @media screen and (max-width: 600px) {
     body {
-        background-color:orange;
-        display: grid;
-        place-items: center;
+        background-color: cyan;
     }
+
+    
 }
 
   
-
+/* for mobile, desktop and tablets*/
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    body {
+     margin: 5px;
+    }
+   }
