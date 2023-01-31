@@ -1,2 +1,2 @@
 # Ibm-coding-project-template
-https://simple-interest-calculator0.netlify.app/
+https://abiodun001-world.github.io/Simple-Interest-Calculator/
